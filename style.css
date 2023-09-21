@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.head {
+  width: 100%;
+  background-image: url(images/bg-header-desktop.png);
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo {
+  max-width: 80px;
+  margin-bottom: 40px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  text-align: center;
+  height: 100%;
+  width: 100vw;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+header .content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.head-text {
+  font-size: 18px;
+  align-self: center;
+  max-width: 650px;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+header .download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+header .download a {
+  max-width: 350px;
+  border: 1px solid transparent;
+  padding: 12px 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+header .download a:first-child {
+  /* margin-right: 15px; */
+  background-color: hsl(171, 66%, 44%);
+}
+header .download a:last-child {
+  background-color: hsl(233, 100%, 69%);
+}
+.track .cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px 30px;
+}
+.track .cnt h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+.track .cnt p {
+  font-size: 18px;
+  max-width: 650px;
+  align-self: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+.track .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin-bottom: 100px;
+  padding: 30px;
+}
+.track .container .img {
+  max-width: 50%;
+}
+.track .container .img img {
+  width: 100%;
+  height: 100%;
+}
+.track .container .content {
+  max-width: 50%;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.track .content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.container .content p {
+  font-size: 16px;
+  padding-right: 50px;
+  font-weight: 600;
+  color: hsl(201, 11%, 66%);
+}
+.c1,
+.c2,
+.c3 {
+  margin-bottom: 30px;
+}
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.clipboard h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+.clipboard p {
+  font-size: 18px;
+  max-width: 650px;
+  align-self: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+.clipboard .img img {
+  width: 100%;
+  height: 100%;
+}
+/* workflow */
+.workflow {
+  padding: 30px;
+}
+.flow-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.flow-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+.flow-text p {
+  font-size: 18px;
+  max-width: 650px;
+  align-self: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+.flow-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.flow-content .c1 {
+  text-align: center;
+  width: 300px;
+}
+.flow-content img {
+  margin-bottom: 20px;
+}
+.flow-content h4 {
+  margin-bottom: 20px;
+}
+.flow-content p {
+  font-size: 15px;
+  max-width: 650px;
+  align-self: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 50px;
+}
+.company {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.app-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.app-store h2 {
+  margin-bottom: 20px;
+}
+.app-store p {
+  max-width: 600px;
+  font-size: 17px;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 25px;
+}
+.app-store a {
+  max-width: 350px;
+  border: 1px solid transparent;
+  padding: 12px 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.app-store .download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.app-store .download a:first-child {
+  background-color: hsl(171, 66%, 44%);
+}
+.app-store .download a:last-child {
+  background-color: hsl(233, 100%, 69%);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 90px;
+  background-color: hsl(201, 11%, 98%);
+  gap: 20px;
+  flex-wrap: wrap;
+}
+footer .logo {
+  max-width: 50px;
+}
+.foot-text img {
+  width: 100%;
+  height: 100%;
+}
+
+.foot-text {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.foot-text p {
+  margin-bottom: 10px;
+  color: hsl(201, 11%, 66%);
+  cursor: pointer;
+}
+.foot-text p:hover {
+  color: hsl(171, 66%, 44%);
+}
+.social a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+.social a:hover {
+  color: hsl(171, 66%, 44%);
+}
+/* responsive */
+@media (max-width: 900px) {
+  .track .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .track .container .img {
+    max-width: 100%;
+  }
+  .track .container .content {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .track .content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .container .content p {
+    font-size: 16px;
+    padding-right: 0px;
+    font-weight: 600;
+    color: hsl(201, 11%, 66%);
+  }
+}
+@media (max-width: 780px) {
+  footer {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px 30px;
+  }
+  .foot-text {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 390px) {
+  header .download a {
+    width: 100%;
+  }
+  .app-store .download a {
+    width: 100%;
+  }
+  .company {
+    flex-direction: column;
+  }
+  .company img {
+    margin-bottom: 20px;
+  }
+  footer {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px 30px;
+  }
+  .foot-text {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}
